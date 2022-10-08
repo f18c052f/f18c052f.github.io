@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+.body-lv {
+    font-family: 'Titillium Web','M PLUS 1p', sans-serif;
+    text-align: center;
+}
+.profile-image {
+    margin: 16px 0 0;
+    text-align: center;
+}
+.profile-image img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+.profile-image text{
+    font-size: 32px;
+    text-align: start;
+}
+.heading-lv1{
+    font-size: 28px;
+    text-align: center;
+}
+.heading-lv2 {
+    font-size: 24px;
+}
+.heading-lv3{
+    font-size: 20px;
+}
+.heading-lv4{
+    font-size: 18px;
+}
+.sntc{
+    font-size: 17px;
+}
+.sub{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top:0%;
+}
+
+
+
+
+.tablestyle{
+    border: none;
+    margin:  auto;
+    table-layout: fixed;
+}
+
+.captitle{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.leftcell{
+    text-align: left;
+    width: 70%;
+}
+.hobcell{
+    width: 50%;
+}
+
+#header{
+    /*headerを全画面で見せる*/
+    width:100%;
+    height: 100vh;
+    position: relative;
+} 
+
+#header:before{
+    /*headerの疑似要素に背景画像を指定*/
+    content:"";
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100%;
+    height: 100vh;
+    background:url("./image/header.jpg") no-repeat center;/*背景画像設定※オリジナル画像を設定してください*/
+    background-size:cover;
+}
+
+#container{
+    /*下のかぶさるエリアの指定*/
+    position: relative;
+    z-index:1;
+
+    background:#F4F5F7;
+    padding:5px 0;
+}
+
+
