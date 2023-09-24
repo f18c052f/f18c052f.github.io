@@ -1,9 +1,9 @@
-export interface Certification {
+export interface CertificationType {
     name: string;
     period: string;
 }
 
-export const certifications: Certification[] = [
+export const certifications: CertificationType[] = [
     {
       name: "Google Cloud: Professional Machine Learning Engineer(英語)",
       period: "Sep. 2023"
