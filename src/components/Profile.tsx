@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Box, Card, Link, Avatar, CardBody, Text, Center } from '@chakra-ui/react'
+import { Image, Box, Link, Avatar, Text, Center } from '@chakra-ui/react'
 import profile from '../models/profile';
 import background from '../assets/profile/background.jpeg';
 
@@ -12,11 +12,9 @@ const Profile: React.FC = () => {
         backgroundSize: 'cover',
         height: '70vh',
         boxShadow: '0px 0px 20px rgba(0, 0, 0, 0.5)'
-        // display: 'flex',
       }
 
     const profileStyles = {
-        // display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         textAlign: 'center',
