@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/react": "^18.2.12",
     "@types/react-dom": "^18.2.5",
+    "babel-cli": "^6.26.0",
+    "framer-motion": "^10.16.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -40,6 +45,13 @@
     ]
   },
   "devDependencies": {
-    "@types/node": "^20.6.3"
-  }
+    "@types/node": "^20.6.3",
+    "npm-run-all": "^4.1.5",
+    "ts-loader": "^9.4.4",
+    "webpack-cli": "^5.1.4"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/f18c052f/f18c052f.github.io.git",
+  "author": "f18c052f@gmail.com <f18c052f@gmail.com>",
+  "license": "MIT"
 }
