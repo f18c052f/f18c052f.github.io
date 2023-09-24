@@ -1,5 +1,5 @@
 import React from 'react';
-import { experiences } from '../models/experience';
+import { educations } from '../models/education';
 import { Box,
          Text,
          Stepper,
@@ -15,11 +15,11 @@ import { Box,
 
 
 const steps = [
-    experiences[0],
-    experiences[1],
+    educations[0],
+    educations[1],
 ]
 
-const Experiences: React.FC = () => {
+const Education: React.FC = () => {
     const { activeStep } = useSteps({
         index: 1,
         count: steps.length,
@@ -31,8 +31,8 @@ const Experiences: React.FC = () => {
             <Step key={index}>
             <StepIndicator>
                 <StepStatus
-                complete={<StepIcon />}
-                active={`🚗`}
+                complete={`🌈`}
+                active={`🌖`}
                 />
             </StepIndicator>
 
@@ -42,7 +42,7 @@ const Experiences: React.FC = () => {
                     fontSize='2xl'
                     // fontWeight='semibold'
                     >
-                    {step.company}
+                    {step.name}
                     </Text>
                 </StepTitle>
                 <StepDescription>
@@ -50,7 +50,7 @@ const Experiences: React.FC = () => {
                     fontSize='md'
                     // fontWeight='semibold'
                     >
-                    {step.department} / {step.occupation}
+                    {step.type}
                     </Text>
                 </StepDescription>
                 <Text
@@ -69,4 +69,4 @@ const Experiences: React.FC = () => {
     );
 }
 
-export default Experiences;
+export default Education;

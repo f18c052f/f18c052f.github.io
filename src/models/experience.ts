@@ -8,7 +8,7 @@ export interface Experience {
 export const experiences: Experience[] = [
     {
         company: "MOBIUS Co., Ltd.",
-        period: "Feb. 2023 - present",
+        period: "Feb. 2023 - Present",
         department: "DX",
         occupation: "Engineer"
     },

@@ -1,6 +1,7 @@
 import { SimpleGrid, Box, Text } from '@chakra-ui/react';
 import React from 'react';
 import Experiences from '../components/Experiences';
+import Education from './Education';
 
 const Contents: React.FC = () => {
     return (
@@ -12,8 +13,16 @@ const Contents: React.FC = () => {
                 <Box height='15px' />
                 <Experiences />              
             </Box>
-            <Box bg='green' height='400px'></Box>
-            <Box bg='tomato' height='400px'></Box>
+            <Box boxShadow="md" borderRadius='md' height='400px' p='6'>
+            <Text fontSize='4xl'>
+                    Education
+                </Text>
+                <Box height='15px' />
+                <Education />
+            </Box>
+            <Box boxShadow="md" borderRadius='md' height='400px' p='6'>
+
+            </Box>
         </SimpleGrid>
     );
 };
