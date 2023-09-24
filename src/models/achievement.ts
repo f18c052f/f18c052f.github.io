@@ -1,4 +1,4 @@
-export interface Achievement {
+export interface AchievementType {
     type: string;
     title: string;
     date: string;
@@ -7,7 +7,15 @@ export interface Achievement {
     description: string;
 }
 
-export const achievements: Achievement[] = [
+export const achievements: AchievementType[] = [
+    {
+      type: "Patent",
+      title: "表示制御装置、ヘッドアップディスプレイ装置、及び表示制御方法",
+      date: "Apr. 2023",
+      site: "J-Plat Pat",
+      url: "https://www.j-platpat.inpit.go.jp/c1800/PU/JP-2023-046339/7B8676FFE2AC3E6C2DF89647FDE5B3D680367234D9DF34375275280CE16FB06B/11/ja",
+      description: "特開2023-046339"
+    },
     {
       type: "Journal (Peer-reviewed)",
       title: "Vibration distribution measurement using down sampling phase shifting interferometer",
