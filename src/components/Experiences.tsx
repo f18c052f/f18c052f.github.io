@@ -41,7 +41,7 @@ const Experiences: React.FC = () => {
                 <StepTitle>
                     <Text
                     fontSize='2xl'
-                    fontWeight='semibold'
+                    // fontWeight='semibold'
                     >
                     {step.company}
                     </Text>
@@ -49,14 +49,14 @@ const Experiences: React.FC = () => {
                 <StepDescription>
                     <Text
                     fontSize='md'
-                    fontWeight='semibold'
+                    // fontWeight='semibold'
                     >
                     {step.department} / {step.occupation}
                     </Text>
                 </StepDescription>
                 <Text
                     fontSize='lg'
-                    fontWeight='semibold'
+                    // fontWeight='semibold'
                     color='blackAlpha.600'
                     >
                     {step.period}

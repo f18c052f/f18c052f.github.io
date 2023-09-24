@@ -8,7 +8,6 @@ const Home: React.FC = () => {
     return (
         <>
             <Profile />
-            <Box height='30px'></Box>
             <Components />
         </>
     );
