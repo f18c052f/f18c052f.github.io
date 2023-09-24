@@ -4,6 +4,7 @@ import Experiences from './Experiences';
 import Education from './Education';
 import Achievement from './Achievements';
 import Certifications from './Certifications';
+import Programming from './Programming';
 
 
 const Contents: React.FC = () => {
@@ -37,11 +38,12 @@ const Contents: React.FC = () => {
                 <Box height='15px' />
                 <Certifications />
             </Box>
-            <Box boxShadow="md" borderRadius='md' height='400px' p='6'>
+            <Box boxShadow="md" borderRadius='md' height='250px' p='6'>
                 <Text fontSize='4xl'>
                         Programming Skills 💻
                 </Text>
                 <Box height='15px' />
+                <Programming />
             </Box>
             <Box boxShadow="md" borderRadius='md' height='400px' p='6'>
                 <Text fontSize='4xl'>
