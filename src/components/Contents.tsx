@@ -5,6 +5,7 @@ import Education from './Education';
 import Achievement from './Achievements';
 import Certifications from './Certifications';
 import Programming from './Programming';
+import Fields from './Fileds';
 
 
 const Contents: React.FC = () => {
@@ -45,9 +46,16 @@ const Contents: React.FC = () => {
                 <Box height='15px' />
                 <Programming />
             </Box>
+            <Box boxShadow="md" borderRadius='md' height='500px' p='6'>
+                <Text fontSize='4xl'>
+                        Fields of interest 🔍
+                </Text>
+                <Box height='15px' />
+                <Fields />
+            </Box>
             <Box boxShadow="md" borderRadius='md' height='400px' p='6'>
                 <Text fontSize='4xl'>
-                        Interest 🔍
+                        Hobbies 🏸
                 </Text>
                 <Box height='15px' />
             </Box>

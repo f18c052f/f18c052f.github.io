@@ -9,41 +9,25 @@ import react from '../assets/programming/react.svg';
 import typescript from '../assets/programming/typescript-icon.svg';
 import unity from '../assets/programming/unity.svg';
 
+const images = [python,
+                c,
+                googleCloud,
+                linux,
+                matlab,
+                react,
+                typescript,
+                unity]
+
 const Programming: React.FC = () => {
     return (
         <SimpleGrid minChildWidth='64px' spacing='10px'>
-            <Image
-                boxSize='64px'
-                src={python}
-            />
-            <Image
-                boxSize='64px'
-                src={matlab}
-            />
-            <Image
-                boxSize='64px'
-                src={c}
-            />
-            <Image
-                boxSize='64px'
-                src={typescript}
-            />
-            <Image
-                boxSize='64px'
-                src={react}
-            />
-            <Image
-                boxSize='64px'
-                src={unity}
-            />
-            <Image
-                boxSize='64px'
-                src={linux}
-            />
-            <Image
-                boxSize='64px'
-                src={googleCloud}
-            />
+            {
+                images.map((image) => {
+                    return (
+                        <Image boxSize='64px' src={image} />
+                    );
+                })
+            }
         </SimpleGrid>
     );
 };
