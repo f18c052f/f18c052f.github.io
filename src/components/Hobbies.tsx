@@ -19,7 +19,7 @@ export const manuf = [
 
 const Hobbies: React.FC = () => {
     return (
-        <SimpleGrid spacing='15px' minChildWidth='400px'>
+        <SimpleGrid spacing='15px' minChildWidth='360px'>
         <Card >
             <CardBody>
                 <SimpleGrid spacing='5px' minChildWidth='64px'>
