@@ -1,5 +1,6 @@
 {
-  "name": "githubio",
+  "name": "f18c052f.github.io",
+  "homepage": "https://f18c052f.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,8 +28,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -53,6 +57,7 @@
   "devDependencies": {
     "@types/node": "^20.6.3",
     "@types/react-slick": "^0.23.10",
+    "gh-pages": "^6.0.0",
     "npm-run-all": "^4.1.5",
     "ts-loader": "^9.4.4",
     "webpack-cli": "^5.1.4"

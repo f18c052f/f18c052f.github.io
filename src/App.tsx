@@ -9,7 +9,7 @@ import {links} from './models/route';
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
       <Routes>
         <Route path={links[0].href} element={<Home />} />
