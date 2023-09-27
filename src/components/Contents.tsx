@@ -26,7 +26,7 @@ const Contents: React.FC = () => {
                 <Box height='15px' />
                 <Education />
             </Box>
-            <Box boxShadow="md" borderRadius='md' height='720px' p='6'>
+            <Box boxShadow="md" borderRadius='md' height='750px' p='6'>
                 <Text fontSize='3xl'>
                         Archievements 💎
                 </Text>
