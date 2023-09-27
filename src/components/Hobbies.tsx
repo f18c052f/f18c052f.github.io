@@ -6,7 +6,7 @@ import sw2 from '../assets/hobbies/Test_hand_gesture_recognition.gif';
 import diy from '../assets/hobbies/diy.png';
 import photo from '../assets/hobbies/photoedit.png';
 import tea from '../assets/hobbies/tea.jpg';
-import { SimpleGrid, VStack, Image, Text, AspectRatio, Card, CardBody, CardFooter, Center } from '@chakra-ui/react';
+import { SimpleGrid, Image, Text, AspectRatio, Card, CardBody, Center } from '@chakra-ui/react';
 
 
 export const manuf = [
