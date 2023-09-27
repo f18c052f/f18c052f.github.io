@@ -21,7 +21,7 @@ export const certifications: CertificationType[] = [
       period : "Mar. 2023"
     },
     {
-      name : "TOECI: score 845",
+      name : "TOEIC: score 845",
       period : "Feb. 2022"
     }
 ];
