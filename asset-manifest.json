@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.cc4eaca8.css",
-    "main.js": "/static/js/main.5fb55fc1.js",
-    "static/js/787.be5e4edb.chunk.js": "/static/js/787.be5e4edb.chunk.js",
+    "main.js": "/static/js/main.6ece54e7.js",
+    "static/js/787.287f6e86.chunk.js": "/static/js/787.287f6e86.chunk.js",
     "static/media/Test_hand_gesture_recognition.gif": "/static/media/Test_hand_gesture_recognition.54d1e4e29b394ed5170c.gif",
     "static/media/Shutin_machine.gif": "/static/media/Shutin_machine.679a4d411e1ebcf380c2.gif",
     "static/media/Fairy_bottle.gif": "/static/media/Fairy_bottle.309d16f7046065540146.gif",
@@ -57,11 +57,11 @@
     "static/media/unity.svg": "/static/media/unity.f70eaa6bada173a5f8f7a1734bace709.svg",
     "index.html": "/index.html",
     "main.cc4eaca8.css.map": "/static/css/main.cc4eaca8.css.map",
-    "main.5fb55fc1.js.map": "/static/js/main.5fb55fc1.js.map",
-    "787.be5e4edb.chunk.js.map": "/static/js/787.be5e4edb.chunk.js.map"
+    "main.6ece54e7.js.map": "/static/js/main.6ece54e7.js.map",
+    "787.287f6e86.chunk.js.map": "/static/js/787.287f6e86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc4eaca8.css",
-    "static/js/main.5fb55fc1.js"
+    "static/js/main.6ece54e7.js"
   ]
 }
