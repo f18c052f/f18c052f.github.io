@@ -6,6 +6,7 @@ import Achievement from './Achievements';
 import Certifications from './Certifications';
 import Programming from './Programming';
 import Fields from './Fileds';
+import Hobbies from './Hobbies';
 
 
 const Contents: React.FC = () => {
@@ -53,11 +54,12 @@ const Contents: React.FC = () => {
                 <Box height='15px' />
                 <Fields />
             </Box>
-            <Box boxShadow="md" borderRadius='md' height='400px' p='6'>
+            <Box boxShadow="md" borderRadius='md' height='900px' p='6'>
                 <Text fontSize='4xl'>
                         Hobbies 🏸
                 </Text>
                 <Box height='15px' />
+                <Hobbies />
             </Box>
         </SimpleGrid>
     );
